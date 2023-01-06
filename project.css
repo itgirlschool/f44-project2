@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D3CBC5;
+  height: 79px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 30px;
+  color: black;
+}
+.header__logo {
+  margin-top: 30px;
+}
+.header__link {
+  font-size: 16px;
+}
+
+.main-page {
+  background-image: url(images/room-3d.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 110vh;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 110vh;
+  text-align: center;
+  width: 50%;
+}
+.first-page__line1 {
+  position: absolute;
+  left: 360px;
+  top: 480px;
+}
+.first-page__botton {
+  height: 37px;
+  width: 114px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=project.css.map */
