@@ -130,12 +130,14 @@ h2 {
     }
     &__prise {
         width: 112px;
-        height: 28px;
+        line-height: 28px;
         padding-right: 57px;
         font-family: 'Nunito Sans';
+        font-weight: 25px;
     }
     &__grade {
         width: 85px;
         height: 12px;
+        padding-top: 5px;
 }
 }
