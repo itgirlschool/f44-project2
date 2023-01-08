@@ -44,3 +44,96 @@
     }
 
 }
+.third-page {
+    width: 1110px;
+    height: 862px;
+    display: flexbox;
+    margin: auto;
+}
+.mini-logo {
+    display: flex;
+    justify-content: center;
+    width: 234px;
+    height: 18px;
+}
+.navbar {
+    display: flex;
+    justify-items: flex-start;
+        
+}
+h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 42px;
+    line-height: 60px;
+    color: #1B1A1A;
+}
+.navbar_buttons {
+    width: 338px;
+    height: 31px;
+    &_btn-outline-dark {
+        border: none;
+    }
+}
+.good-cards {
+    width: 1110px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.good {
+    width: 255px;
+    height: 330px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    &__image {
+        width: 255px;
+        height: 241px;
+        background-color: #F7F7F7;
+    }
+        .image {
+            width: 103px;
+                height: 146px;
+                margin-left: 76px;
+                margin-top: 64px;
+                margin-bottom: 64px;
+        }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        background-color: #1C1B1B;
+        width: 255px;
+        height: 33px;
+    }
+        .icon {
+            width: 14.28px;
+            height: 14.28px;
+            filter: invert(100%);
+            padding: 10px;
+        }
+    &__text {     
+        width: 130px;
+        height: 28px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #282828;
+        padding-bottom: 5px;
+    }
+    &__parametr {
+        display: inline-flex;
+        width: 254px;
+        height: 28px;
+    }
+    &__prise {
+        width: 112px;
+        height: 28px;
+        padding-right: 58px;
+    }
+    &__grade {
+        width: 85px;
+        height: 12px;
+}
+}
