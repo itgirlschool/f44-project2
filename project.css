@@ -51,6 +51,7 @@
   height: 862px;
   display: flexbox;
   margin: auto;
+  margin-top: 30px;
 }
 
 .mini-logo {
