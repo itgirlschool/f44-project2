@@ -60,28 +60,44 @@
   width: 234px;
   height: 18px;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar {
   display: flex;
-  justify-items: flex-start;
-  height: 60px;
+  max-height: 60px;
+  width: 1110px;
 }
-
-h2 {
+.navbar__title {
+  align-self: center;
+  line-height: 60px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-size: 42px;
   color: #1B1A1A;
   padding-left: 10px;
+  padding-right: 270px;
+}
+.navbar__buttons {
+  width: 388px;
+  line-height: 60px;
+  justify-self: flex-end;
 }
 
-.navbar_buttons {
-  width: 338px;
-  height: 31px;
-}
-.navbar_buttons_btn-outline-dark {
+.btn {
+  width: auto;
+  height: 25px;
   border: none;
+  color: #353535;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
 }
 
 .good-cards {
