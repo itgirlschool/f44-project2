@@ -76,7 +76,7 @@
     &__buttons {
         width: 388px;
         line-height: 60px;
-        justify-self: flex-end;
+        justify-content: flex-end;
     }
 }
 .btn {
@@ -85,9 +85,10 @@
     border: none;
     color: #353535;
     font-family: 'Nunito Sans';
-    font-size: 16px;
+    font-size: 20px;
     background-color: white;
     cursor: pointer;
+    padding-right: 17px;
 }
 .btn:hover {
     background: black;
@@ -140,6 +141,7 @@
         font-size: 18px;
         color: #282828;
         padding-bottom: 5px;
+        padding-top: 10px;
     }
     &__parametr {
         display: inline-flex;
