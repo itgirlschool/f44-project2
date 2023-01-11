@@ -7,16 +7,19 @@
 }
 .header__menu {
   display: flex;
-  justify-content: space-between;
-  font-size: 16px;
   margin-top: 30px;
-  color: black;
 }
 .header__logo {
   margin-top: 30px;
 }
-.header__link {
+.header__menu-link {
   font-size: 16px;
+  color: black;
+  margin: 25px;
+  font-family: "Nunito Sans";
+}
+.header__menu-link:hover {
+  cursor: pointer;
 }
 
 .main-page {
@@ -39,12 +42,17 @@
   left: 360px;
   top: 480px;
 }
-.first-page__botton {
+.first-page__button {
   height: 37px;
   width: 114px;
   background-color: black;
   color: white;
+  font-size: 14px;
   text-align: center;
+  padding: 7px 17px;
+}
+.first-page__button:hover {
+  background-color: #5a5959;
 }
 
 .third-page {
