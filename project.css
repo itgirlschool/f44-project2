@@ -27,20 +27,20 @@
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 110vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.text-page {
+  display: flex;
+  align-items: center;
+  min-height: 110vh;
 }
 
 .first-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 110vh;
-  text-align: center;
-  width: 50%;
-}
-.first-page__line1 {
-  position: absolute;
-  left: 360px;
-  top: 480px;
+  flex: 0 0 550px;
+  line-height: 1.5;
 }
 .first-page__button {
   height: 37px;
