@@ -359,6 +359,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
+  margin-bottom: 134px;
 }
 .articles__group_block {
   position: relative;
