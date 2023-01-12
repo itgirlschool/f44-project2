@@ -253,8 +253,9 @@
 }
 
 .slider {
+    font-family: "Nunito Sans";
     max-width: 100%;
-    margin: 10px;
+    margin: 70px;
 }
 
 .itc-slider__item {
@@ -262,7 +263,6 @@
     flex-direction: column;
     max-width: 32%;
     height: 449px;
-    width: 350px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -279,7 +279,7 @@
     font-size: 25px;
     margin: 5px;
     padding: 30px;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .chair {
@@ -295,12 +295,15 @@
 }
 
 .lamp {
+    max-width: 100%;
     min-width: 100%;
     padding: 0;
     margin: 0;
+    align-content: center;
 }
 
 .item__button {
+    background-color: #E5E6E6;
     font-style: normal;
     font-size: 14px;
     line-height: 30px;
@@ -312,26 +315,32 @@
     font-size: 14px;
     line-height: 30px;
     margin-top: 25%;
+    background-color: #E5E6E6
 }
 
 .itc-slider__item:nth-child(1) {
     background-color: #E5E6E6;
+    max-width: 33%;
 }
 
 .itc-slider__item:nth-child(2) {
     background-color: #E5E6E6;
+    max-width: 33%;
 }
 
 .itc-slider__item:nth-child(3) {
     background-color: #E5E6E6;
+    max-width: 33%
 }
 
 .itc-slider__item:nth-child(4) {
     background-color: #E5E6E6;
+    max-width: 33%
 }
 
 .itc-slider__item:nth-child(5) {
     background-color: #E5E6E6;
+    max-width: 33%
 }
 
 
