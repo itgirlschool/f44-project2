@@ -326,13 +326,12 @@
 
 /*#----------------------Третья страница------------------------*/
 
-.third-page_background {
-    width: 1fr;
-    height: 0.5fr;
-    position: absolute;
-    left: 0px;
-    top: 2131px;
-    background-color: rgba(14, 14, 14, 0.39);
+.section-3 {
+    background-image: url(background_part_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family:'Nunito Sans';
 }
 
 .third-page_line17 {
