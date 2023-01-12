@@ -25,19 +25,16 @@
 }
 
 
-.main-page {
-    background-image: url(images/room-3d.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 110vh;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 .text-page{
 display: flex;
 align-items: center;
 min-height: 110vh;
+background-image: url(images/room-3d.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
 }
 .first-page {
     flex: 0 0 550px;
