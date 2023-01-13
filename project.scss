@@ -17,28 +17,31 @@
         font-size: 16px;
         color: black;
         margin: 25px;
-        font-family:'Nunito Sans';
+        font-family: 'Nunito Sans';
     }
-    &__menu-link:hover{
+
+    &__menu-link:hover {
         cursor: pointer;
         text-decoration: underline;
     }
 }
 
 
-.text-page{
+.text-page {
     background-image: url(images/room-3d.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    font-family:'Nunito Sans';
+    font-family: 'Nunito Sans';
     padding-top: 80px;
     padding-bottom: 20px;
 }
+
 .first-page {
     line-height: 1.5;
     margin: 290px;
-    &::after{
+
+    &::after {
         content: "";
         position: absolute;
         border-bottom: 1px solid #6B6C71;
@@ -46,24 +49,29 @@
         left: 260px;
         bottom: 540px;
     }
-    &::before{
+
+    &::before {
         content: "";
         position: absolute;
         border-right: 1px solid #6B6C71;
         height: 261px;
         left: 275px;
-        top: 410px; 
+        top: 410px;
     }
-    &__title{
+
+    &__title {
         font-size: 50px;
     }
-    &__price{
+
+    &__price {
         font-size: 24px;
     }
-    &__name{
+
+    &__name {
         font-size: 16px;
         color: #2C314B;
     }
+
     &__button {
         height: 37px;
         width: 114px;
@@ -75,10 +83,12 @@
         border: none;
         margin-top: 15px;
     }
-    &__button:hover{
+
+    &__button:hover {
         background-color: #5a5959;
-        }
-     &__button::after{
+    }
+
+    &__button::after {
         content: "";
         position: absolute;
         border-bottom: 0.6px solid black;
@@ -86,8 +96,9 @@
         width: 125px;
         left: 0;
         bottom: 0;
-     } 
-     &__button::before{
+    }
+
+    &__button::before {
         content: "";
         position: absolute;
         border-right: 0.6px solid black;
@@ -95,7 +106,7 @@
         width: 114px;
         left: 0;
         top: 0;
-     }  
+    }
 }
 
 .third-page {
@@ -282,7 +293,7 @@
     margin-left: 28%;
     margin-bottom: 5%;
 }
-    
+
 .lamp {
     min-width: 100%;
     padding: 0;
@@ -482,7 +493,7 @@
     &__recent {
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
 
         &_line {
             border: 1.2px solid #9A6437;
@@ -516,11 +527,18 @@
         }
     }
 
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__group {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
         margin-bottom: 134px;
+        max-width: 1110px;
 
         &_block {
             position: relative;
@@ -534,27 +552,134 @@
                 position: absolute;
                 left: 29px;
                 top: 271px;
-                max-width: 42px;
-                max-height: 46px;
+                width: 42px;
+                height: 46px;
                 background: #FFFFFF;
                 border-bottom: 3px solid #B47139;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
-                text-align: center;
+                justify-content: center;
                 font-family: 'Nunito Sans';
                 font-style: normal;
-                line-height: 30px;
                 filter: drop-shadow(0px 1px 7px rgba(0, 0, 0, 0.15));
+
+                .date {
+                    font-weight: 400;
+                    font-size: 17px;
+                }
+
+                .month {
+                    font-weight: 300;
+                    font-size: 12px;
+                }
             }
 
             &_content {
                 max-width: 350px;
                 max-height: 197px;
                 border: 1px solid #ACACAC;
+                padding-top: 37px;
+                padding-left: 30px;
+                box-sizing: content-box;
+
 
                 .info {
                     display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+
+
+                    &__img {
+                        margin-right: 7px;
+                    }
+
+                    &__text {
+                        font-family: 'Nunito Sans';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 28px;
+                        color: #808080;
+                    }
+
+                    .name {
+                        margin-right: 27px;
+
+                    }
                 }
+
+                .article {
+                    font-family: 'Nunito Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #2E2D2D;
+                    margin-bottom: 13px;
+                }
+
+                .button {
+                    height: 37px;
+                    width: 133px;
+                    margin-bottom: 24px;
+                    position: relative;
+
+                    .link {
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Nunito Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 60px;
+                        color: #1B1A1A;
+                    }
+                }
+
+                .button::before {
+                    content: "";
+                    position: absolute;
+                    background: #1B1A1A;
+                    height: 43px;
+                    width: 0.6px;
+                    left: 0;
+                    top: -5px;
+                }
+
+                .link::before {
+                    content: "";
+                    position: absolute;
+                    background: #1B1A1A;
+                    height: 0.6px;
+                    width: 138px;
+                    left: -5px;
+                    top: 0;
+                }
+
+                .button::after {
+                    content: "";
+                    position: absolute;
+                    background: #1B1A1A;
+                    height: 43px;
+                    width: 0.6px;
+                    left: 133px;
+                    top: 0;
+                }
+
+                .link::after {
+                    content: "";
+                    position: absolute;
+                    background: #1B1A1A;
+                    height: 0.6px;
+                    width: 138px;
+                    left: 0px;
+                    top: 37px;
+                }
+
+
             }
         }
     }
