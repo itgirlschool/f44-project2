@@ -59,6 +59,10 @@
 .first-page__price {
   font-size: 24px;
 }
+.first-page__price-start {
+  color: #878787;
+  font-size: 16px;
+}
 .first-page__name {
   font-size: 16px;
   color: #2C314B;
