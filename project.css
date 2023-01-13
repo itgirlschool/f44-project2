@@ -242,7 +242,7 @@
   flex: 0 0 32;
   flex-direction: column;
   max-width: 32%;
-  height: 530px;
+  height: 505px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -265,8 +265,8 @@
 }
 
 .slide__title {
-  min-height: 165px;
   font-size: 30px;
+  min-height: 165px;
 }
 
 .chair {
