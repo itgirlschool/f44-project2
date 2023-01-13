@@ -268,7 +268,7 @@
     flex: 0 0 32;
     flex-direction: column;
     max-width: 32%;
-    height: 480px;
+    height: 530px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -292,7 +292,7 @@
 }
 
 .slide__title {
-    min-height: 137px;
+    min-height: 165px;
     font-size: 30px;
 }
 
@@ -341,7 +341,7 @@
     height: 0.6px;
     width: 110px;
     left: 25px;
-    top: 172.3px;
+    top: 200px;
 }
 
 .item__button::after {
@@ -351,7 +351,7 @@
     height: 0.6px;
     width: 110px;
     left: 40px;
-    top: 208.3px;
+    top: 236px;
 }
 
 .button__link {
@@ -364,8 +364,8 @@
     background: #1B1A1A;
     height: 40px;
     width: 0.6px;
-    left: 30px;
-    top: 165.5px
+    left: 30.75px;
+    top: 193.5px
 }
 
 .button__link::after {
@@ -375,7 +375,7 @@
     height: 40px;
     width: 0.6px;
     left: 144px;
-    top: 175px
+    top: 202.7px
 }
 
 .itc-slider__item:nth-child(1) {
