@@ -835,6 +835,122 @@
 }
 
 
+/*----------------------Page 4------------------------*/
+<!-------css for page4------------>
+        .block-name {
+            margin-left: 10vw;
+            margin-bottom: 3vh;
+        }
+
+        .block-name__theme {
+            color: #9A6437;
+            display: flex;
+            align-items: center;
+        }
+
+        .block-name-image {
+            margin-right: 1vw;
+        }
+
+        .Special-product {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+
+        .blue-chair-1__image {
+            background-color: #F7F7F7;
+            padding: 64px 66px 63px 66px;
+        }
+
+        .blue-chair-2__image {
+            background-color: #F7F7F7;
+            padding: 55px 66px 55px 66px;
+        }
+
+        .coral-vase__image {
+            background-color: #F7F7F7;
+            padding: 57px 66px 57px 66px;
+        }
+
+        .coffe-table-set__image {
+            background-color: #F7F7F7;
+            padding: 51px 66px 51px 66px;
+        }
+
+        .Special-product-icons {
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 10px;
+        }
+
+        .Price-and-rating {
+            display: flex;
+        }
+
+        .price_old {
+            text-decoration: line-through;
+            margin-right: 9px;
+        }
+
+        .raiting {
+            margin-left: 55px;
+        }
+
+        .raiting-1 {
+            margin-left: 100px;
+        }
+
+        .Special-product__name {
+            margin-bottom: 3vh;
+        }
+
+        .advantages {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 10vh;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+
+        .advantage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .advantage__icon {
+            width: 15%;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .advantage__text {
+            font-size: small;
+        }
+
+        .vertical line {
+            color: white;
+            border: 1px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 10vw;
+            background-color: white;
+        }
+
 /*----------------------Part 5 Смирнова Анна начало------------------------*/
 @media screen and (min-width: 1024px) {
     .articles {
