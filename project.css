@@ -99,6 +99,22 @@
   left: 0;
   top: 0;
 }
+.first-page__button-line::before {
+  content: "";
+  position: absolute;
+  border-top: 0.6px solid black;
+  width: 122px;
+  left: 282px;
+  bottom: 295px;
+}
+.first-page__button-line::after {
+  content: "";
+  position: absolute;
+  border-left: 0.6px solid black;
+  height: 45px;
+  bottom: 259px;
+  left: 290px;
+}
 
 .third-page {
   width: 1110px;
