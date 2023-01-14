@@ -130,46 +130,160 @@
     }
 }
 
-.third-page {
-    width: 1110px;
-    height: 862px;
-    display: flexbox;
-    margin: auto;
-    margin-top: 30px;
+@media screen and (min-width: 1024px) {
+    .third-page {
+        width: 1110px;
+        height: 862px;
+        display: flexbox;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .mini-logo {
+        display: flex;
+        justify-content: center;
+        width: 234px;
+        height: 18px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar {
+        display: flex;
+        max-height: 60px;
+        width: 1110px;
+        &__title {
+            align-self: center;
+            line-height: 60px;
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-size: 42px;
+            color: #1B1A1A;
+            padding-left: 10px;
+            padding-right: 270px;
+        }
+        &__buttons {
+            width: 388px;
+            line-height: 60px;
+            justify-content: flex-end;
+        }
+    }
+    .btn {
+        width: auto;
+        height: 25px;
+        border: none;
+        color: #353535;
+        font-family: 'Nunito Sans';
+        font-size: 20px;
+        background-color: white;
+        cursor: pointer;
+        padding-right: 17px;
+    }
+    .btn:hover {
+        background: black;
+        color: white;
+    }
+    .good-cards {
+        width: 1110px;
+        height: 680px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .good {
+        width: 255px;
+        height: 330px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        padding: 10px;
+        &__image {
+            width: 255px;
+            height: 241px;
+            background-color: #F7F7F7;
+        }
+        .image {
+            width: 103px;
+            height: 146px;
+            margin-left: 76px;
+            margin-top: 64px;
+            margin-bottom: 64px;
+        }
+        &__icons {
+            display: flex;
+            justify-content: center;
+            background-color: #1C1B1B;
+            width: 255px;
+            height: 33px;
+        }
+        .icon {
+            width: 14.28px;
+            height: 14.28px;
+            filter: invert(100%);
+            padding: 10px;
+        }
+        &__text {
+            width: 130px;
+            height: 28px;
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #282828;
+            padding-bottom: 5px;
+            padding-top: 10px;
+        }
+        &__parametr {
+            display: inline-flex;
+            width: 254px;
+            height: 28px;
+        }
+        &__prise {
+            width: 112px;
+            line-height: 28px;
+            padding-right: 57px;
+            font-family: 'Nunito Sans';
+            font-weight: 25px;
+        }
+        &__grade {
+            width: 85px;
+            height: 12px;
+            padding-top: 5px;
+        }
+    }
 }
 
-.mini-logo {
-    display: flex;
-    justify-content: center;
-    width: 234px;
-    height: 18px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
-.navbar {
-    display: flex;
-    max-height: 60px;
-    width: 1110px;
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .third-page {
+        max-width: 100vw;
+    }
+    .mini-logo {
+        display: flex;
+        justify-content: center;
+        width: 234px;
+        height: 18px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 50vh;
+        max-width: 100vw;
+        justify-content: center;
     &__title {
-        align-self: center;
-        line-height: 60px;
+        
+        line-height: 45px;
         font-family: 'Nunito Sans';
         font-style: normal;
         font-size: 42px;
         color: #1B1A1A;
-        padding-left: 10px;
-        padding-right: 270px;
+        padding: auto;
     }
-
     &__buttons {
         width: 388px;
-        line-height: 60px;
-        justify-content: flex-end;
-    }
+        line-height: 45px;
+        
 }
-
+    }
 .btn {
     width: auto;
     height: 25px;
@@ -181,32 +295,25 @@
     cursor: pointer;
     padding-right: 17px;
 }
-
-.btn:hover {
-    background: black;
-    color: white;
-}
-
 .good-cards {
-    width: 1110px;
-    height: 680px;
+    width: 100vw;
+    max-height: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 }
-
 .good {
     width: 255px;
     height: 330px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 30px;
     padding: 10px;
-
     &__image {
         width: 255px;
         height: 241px;
         background-color: #F7F7F7;
     }
-
     .image {
         width: 103px;
         height: 146px;
@@ -214,7 +321,6 @@
         margin-top: 64px;
         margin-bottom: 64px;
     }
-
     &__icons {
         display: flex;
         justify-content: center;
@@ -222,14 +328,12 @@
         width: 255px;
         height: 33px;
     }
-
     .icon {
         width: 14.28px;
         height: 14.28px;
         filter: invert(100%);
         padding: 10px;
     }
-
     &__text {
         width: 130px;
         height: 28px;
@@ -241,13 +345,11 @@
         padding-bottom: 5px;
         padding-top: 10px;
     }
-
     &__parametr {
         display: inline-flex;
         width: 254px;
         height: 28px;
     }
-
     &__prise {
         width: 112px;
         line-height: 28px;
@@ -255,14 +357,127 @@
         font-family: 'Nunito Sans';
         font-weight: 25px;
     }
-
     &__grade {
         width: 85px;
         height: 12px;
         padding-top: 5px;
     }
 }
+}
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .third-page {
+        max-width: 100vw;
+    }
+    .mini-logo {
+        display: flex;
+        justify-content: center;
+        width: 234px;
+        height: 18px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 50vh;
+        max-width: 100vw;
+        justify-content: center;
+    &__title {
+        
+        line-height: 45px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-size: 35px;
+        color: #1B1A1A;
+    }
+    &__buttons {
+        width: 388px;
+        line-height: 45px;    
+}
+    }
+.btn {
+    width: auto;
+    height: 25px;
+    border: none;
+    color: #353535;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.good-cards {
+    width: 100vw;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.good {
+    width: 255px;
+    height: 330px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    &__image {
+        width: 255px;
+        height: 241px;
+        background-color: #F7F7F7;
+    }
+    .image {
+        width: 103px;
+        height: 146px;
+        margin-left: 76px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        background-color: #1C1B1B;
+        width: 255px;
+        height: 33px;
+    }
+    .icon {
+        width: 14.28px;
+        height: 14.28px;
+        filter: invert(100%);
+        padding: 10px;
+    }
+    &__text {
+        width: 130px;
+        height: 28px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #282828;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    &__parametr {
+        display: inline-flex;
+        width: 254px;
+        height: 28px;
+    }
+    &__prise {
+        width: 112px;
+        line-height: 28px;
+        padding-right: 57px;
+        font-family: 'Nunito Sans';
+        font-weight: 25px;
+    }
+    &__grade {
+        width: 85px;
+        height: 12px;
+        padding-top: 5px;
+    }
+}
+}
 /*#----------------------slider------------------------*/
 
 
