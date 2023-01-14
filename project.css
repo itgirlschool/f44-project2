@@ -795,7 +795,7 @@
   color: #1B1A1A;
   text-align: center;
 }
-.articles .slider {
+.articles .slider-articles {
   display: flex;
   justify-content: space-between;
   align-items: center;
