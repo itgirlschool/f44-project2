@@ -201,6 +201,7 @@
         height: 330px;
         margin-bottom: 5px;
         margin-top: 30px;
+        margin-right: 15px;
         padding: 10px;
 
         &__image {
@@ -208,15 +209,6 @@
             height: 241px;
             background-color: #f7f7f7;
         }
-
-        .image {
-            width: 103px;
-            height: 146px;
-            margin-left: 76px;
-            margin-top: 64px;
-            margin-bottom: 64px;
-        }
-
         &__icons {
             display: flex;
             justify-content: center;
@@ -224,14 +216,6 @@
             width: 255px;
             height: 33px;
         }
-
-        .icon {
-            width: 14.28px;
-            height: 14.28px;
-            filter: invert(100%);
-            padding: 10px;
-        }
-
         &__text {
             width: 130px;
             height: 28px;
@@ -263,6 +247,19 @@
             height: 12px;
             padding-top: 5px;
         }
+    }   
+    .image {
+        width: 103px;
+        height: 146px;
+        margin-left: 76px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .icon {
+        width: 14.28px;
+        height: 14.28px;
+        filter: invert(100%);
+        padding: 10px;
     }
 }
 
