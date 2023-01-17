@@ -25,9 +25,8 @@
 
 .text-page {
   background-image: url(images/room-3d.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-size: cover;
   font-family: "Nunito Sans";
   padding-top: 80px;
   padding-bottom: 20px;
@@ -42,8 +41,8 @@
   position: absolute;
   border-bottom: 1px solid #6b6c71;
   width: 292px;
-  left: 260px;
-  bottom: 540px;
+  left: 250px;
+  top: 440px;
 }
 .first-page::before {
   content: "";
@@ -105,15 +104,17 @@
   border-top: 0.6px solid black;
   width: 122px;
   left: 282px;
-  bottom: 295px;
+  top: 673px;
+  bottom: 0;
 }
 .first-page__button-line::after {
   content: "";
   position: absolute;
   border-left: 0.6px solid black;
   height: 45px;
-  bottom: 259px;
+  bottom: 0;
   left: 290px;
+  top: 666px;
 }
 
 @media screen and (min-width: 1024px) {
