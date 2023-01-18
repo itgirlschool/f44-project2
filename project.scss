@@ -11,10 +11,22 @@
 }
 @media screen and(max-width:768px) and(min-width:640px){
    .first-page__button-line::before{
+    content: "";
     top: 649px;
+    position: absolute;
+    border-top: 0.6px solid black;
+    width: 122px;
+    left: 252px;
+    bottom: 0;
    }
    .first-page__button-line::after{
+    content: "";
     top: 641px;
+    position: absolute;
+    border-left: 0.6px solid black;
+    height: 45px;
+    bottom: 0;
+    left: 259px;
    }
    .first-page__title{
     font-size: 30px;
@@ -25,12 +37,16 @@
         display: none;
     }
 }
+@media screen and(min-width: 1441px){
+    .text-page {
+        background-size: 100%;
+    }
+}
 .header {
     display: flex;
     justify-content: space-around;
     background-color: #d3cbc5;
     height: 79px;
-    background-size: 1440px;
 
     &__menu {
         display: flex;
@@ -58,7 +74,7 @@
     background-image: url(images/room-3d.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 1440px;
+    background-size: cover;
     font-family: "Nunito Sans";
     padding-top: 10px;
     padding-bottom: 0;
