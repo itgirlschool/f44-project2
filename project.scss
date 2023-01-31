@@ -1,47 +1,4 @@
-@media screen and (max-width: 1024px) and (min-width: 769px){
-  .first-page{
-    margin: 10px;
-  }
- .first-page__title{
-    font-size: 20px;
- }
- .header__menu-link{
-    margin: 5px;
- }
-}
-@media screen and(max-width:768px) and(min-width:640px){
-   .first-page__button-line::before{
-    content: "";
-    top: 649px;
-    position: absolute;
-    border-top: 0.6px solid black;
-    width: 122px;
-    left: 252px;
-    bottom: 0;
-   }
-   .first-page__button-line::after{
-    content: "";
-    top: 641px;
-    position: absolute;
-    border-left: 0.6px solid black;
-    height: 45px;
-    bottom: 0;
-    left: 259px;
-   }
-   .first-page__title{
-    font-size: 30px;
-   }
-}
-@media screen and(max-width:639px) and(min-width:375px){
-    .header__menu-link{
-        display: none;
-    }
-}
-@media screen and(min-width: 1441px){
-    .text-page {
-        background-size: 100%;
-    }
-}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -177,6 +134,170 @@
         top: 566px;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .first-page{
+      margin: 180px;
+    }
+   .first-page__title{
+      font-size: 20px;
+   }
+   .header__menu-link{
+      margin: 5px;
+   }
+   .text-page{
+  background-size: 100%;
+  background-position: 0 0;
+   }
+   .first-page__button-line::before{
+    content: "";
+    top: 403px;
+    position: absolute;
+    border-top: 0.6px solid black;
+    width: 122px;
+    left: 172px;
+    bottom: 0;
+   }
+   .first-page__button-line::after{
+    content: "";
+    top: 396px;
+    position: absolute;
+    border-left: 0.6px solid black;
+    height: 45px;
+    bottom: 0;
+    left: 179px;
+   }
+   .first-page::after{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #6b6c71;
+    width: 210px;
+    left: 140px;
+    top: 260px;
+   }
+   .first-page::before{
+    content: "";
+        position: absolute;
+        border-right: 1px solid #6b6c71;
+        height: 150px;
+        left: 150px;
+        top: 250px;
+   }
+  }
+  @media screen and(max-width:768px) and(min-width:640px){
+     .text-page{
+        background-size: 100%;
+        background-position: 0 0;
+     }
+     .first-page{
+        margin: 110px;
+     }
+     .header__menu-link{
+        font-size: 12px;
+     }
+     .header{
+        height: 60px;
+     }
+     .header__logo{
+        margin: 10px;
+     }
+    .first-page__button-line::before{
+      content: "";
+      top: 314px;
+      position: absolute;
+      border-top: 0.6px solid black;
+      width: 122px;
+      left: 102px;
+      bottom: 0;
+     }
+     .first-page__button-line::after{
+      content: "";
+      top: 307px;
+      position: absolute;
+      border-left: 0.6px solid black;
+      height: 45px;
+      bottom: 0;
+      left: 109px;
+     }
+     .first-page__title{
+      font-size: 20px;
+     }
+     .first-page::after{
+        content: "";
+    position: absolute;
+    border-bottom: 1px solid #6b6c71;
+    width: 160px;
+    left: 90px;
+    top: 170px;
+     }
+     .first-page::before{
+        content: "";
+        position: absolute;
+        border-right: 1px solid #6b6c71;
+        height: 150px;
+        left: 100px;
+        top: 160px;
+     }
+  }
+  @media screen and(max-width:639px){
+      .header__menu-link{
+          display: none;
+      }
+      .text-page{
+        background-size: 100%;
+        background-position: 0 0;
+     }
+     .first-page{
+margin-bottom: 2px;
+margin-top: 2px;
+margin-left: 62px;
+height: 100px;
+padding: 0;
+     }
+     .first-page__title {
+        font-size: 20px;
+    }
+
+    .first-page__price {
+        font-size: 12px;
+    }
+
+    .first-page__price-start {
+        font-size: 10px;
+    }
+
+    .first-page__name {
+        font-size: 10px;
+    }
+
+    .first-page__button {
+        height: 17px;
+        width: 80px;
+        font-size: 10px;
+  }
+  .first-page::after{
+ display: none;
+ }
+ .first-page::before{
+    display: none;
+ }
+ .first-page__button-line::before{
+   display: none;
+   }
+   .first-page__button-line::after{
+  display: none;
+   }
+   .first-page__button::after{
+    display: none;
+   }
+   .first-page__button::before{
+    display: none;
+   }
+}
+  @media screen and(min-width: 1441px){
+      .text-page {
+          background-size: 100%;
+      }
+  }
 
 
 @media screen and (min-width: 1024px) {
